@@ -49,4 +49,14 @@ class SitewideSearchTest extends SitewideSearchBase {
     parent::tearDown();
   }
 
+  /**
+   * {@inheritdoc}
+   */
+  protected function indexItems() {
+    // Index content.
+    $index = Index::load('localgov_sitewide_search');
+    $index->indexItems();
+    $this->ensureCommit($index);
+  }
+
 }
