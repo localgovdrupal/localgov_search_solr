@@ -1,6 +1,6 @@
 name: 'LocalGov Search Solr'
 description: 'Default solr index and configuration for Sitewide search for LocalGov Drupal'
-core_version_requirement: ^9
+core_version_requirement: ^9 || ^10
 type: module
 package: LocalGov Drupal
 
