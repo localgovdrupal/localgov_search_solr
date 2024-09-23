@@ -2,10 +2,10 @@
 
 namespace Drupal\Tests\localgov_search_solr\Functional;
 
+use Drupal\Tests\localgov_search\Functional\SitewideSearchBase;
 use Drupal\search_api\Entity\Index;
 use Drupal\search_api\Entity\Server;
 use Drupal\search_api_solr\Utility\SolrCommitTrait;
-use Drupal\Tests\localgov_search\Functional\SitewideSearchBase;
 
 /**
  * Test search to check sitewide search integration.
